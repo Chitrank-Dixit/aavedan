@@ -1,13 +1,22 @@
-<?php require_once 'components/ti.php' ?>
-<html>
-<?php startblock('style') ?>
-<link rel="stylesheet" href="static/bootstrap/css/bootstrap_lumen.css"  />
-<?php endblock() ?>
+<?php require_once './components/ti.php' ?>
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<head>
+<link rel="stylesheet" href="./static/bootstrap/css/bootstrap_lumen.css"  />
+</head>
+
 <body>
 <!-- header -->
 <?php startblock('header') ?>
 <?php include 'components/header.php' ?>
 <?php endblock() ?>
+
+<!-- content here -->
+
 
 <!-- footer -->
 <?php startblock('header') ?>
@@ -15,13 +24,11 @@
 <?php endblock() ?>
 
 <?php startblock('tailscript') ?>
-<script src="static/bootstrap/js/jquery-2.1.1.js" > </script>
-<script src="static/bootstrap/js/bootstrap3.js" > </script>
-<script src="static/bootstrap/js/angular.js" > </script>
-<script type="text/javascript">
-	document.write("Done atleast run this time");
+<script type="text/javascript" src="./static/bootstrap/js/jquery-2.1.1.js" > </script>
+<script type="text/javascript" src="./static/bootstrap/js/bootstrap3.js" > </script>
+<script type="text/javascript" src="./static/bootstrap/js/angular.js" > </script>
 
-</script>
 <?php endblock() ?>
+
 </body>
 </html>
